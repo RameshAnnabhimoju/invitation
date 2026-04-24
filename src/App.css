@@ -1,452 +1,450 @@
 .invitation-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-inline: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: 6%;
 }
 
 .image-section {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .palace-image-section {
-    background-image: url("./assets/images/palace.png");
-    height: 7106px;
+  background-image: url("./assets/images/palace.png");
+  height: 7106px;
 }
 
 .pink-image-section {
-    background-image: url("./assets/images/pink-bg.png");
-    height: 3716px;
+  background-image: url("./assets/images/pink-bg.png");
+  height: 3716px;
 }
 
 .yellow-image-section {
-    background-image: url("./assets/images/yellow-bg-sm.png");
-    height: 2048px;
+  background-image: url("./assets/images/yellow-bg-sm.png");
+  height: 2048px;
 }
 
 .night-palace-image-section {
-    background-image: url("./assets/images/palace-night-sm.png");
-    height: 1620px;
+  background-image: url("./assets/images/palace-night-sm.png");
+  height: 1620px;
 }
 
 .palace-title {
-    text-align: center;
-    margin-top: 180px;
-    color: rgb(243, 236, 186);
-    line-height: 60px;
-    font-family: "Cormorant", "Cormorant Placeholder", serif;
+  text-align: center;
+  margin-top: 180px;
+  color: rgb(243, 236, 186);
+  line-height: 60px;
+  font-family: "Cormorant", "Cormorant Placeholder", serif;
 }
 
 .palace-title-text {
-    font-size: 100px;
-    line-height: 60px;
+  font-size: 100px;
+  line-height: 60px;
 }
 
 .palace-title-text-weds {
-    font-size: 42px;
-    line-height: 60px;
+  font-size: 42px;
+  line-height: 60px;
 }
 
 .palace-details-text {
-    font-family: "Cormorant Upright", "Cormorant Upright Placeholder", serif;
-    font-size: 30px;
-    color: rgb(243, 236, 186);
-    text-align: center;
-    margin-top: 80px;
+  font-family: "Cormorant Upright", "Cormorant Upright Placeholder", serif;
+  font-size: 30px;
+  color: rgb(243, 236, 186);
+  text-align: center;
+  margin-top: 80px;
 }
 
 .palace-details-text-v2 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .palace-details-text-large {
-    font-size: 150px;
+  font-size: 150px;
 }
 
 .palace-details-text-medium {
-    font-size: 100px;
+  font-size: 100px;
 }
 
 .palace-event-frame {
-    background-image: url("./assets/images/frame-2.png");
-    background-repeat: no-repeat;
-    width: 310px;
-    height: 377px;
-    background-size: contain;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  background-image: url("./assets/images/frame-2.png");
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 377px;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .place-evnets-cared-flower-1 {
-    position: absolute;
-    width: 150px;
-    right: 0;
-    top: 0;
+  position: absolute;
+  width: 150px;
+  right: 0;
+  top: 0;
 }
 
 .palace-event-data {
-    text-align: center;
-    color: rgb(69, 160, 134);
-    max-width: 250px;
-    text-wrap: wrap;
-
+  text-align: center;
+  color: rgb(69, 160, 134);
+  max-width: 250px;
+  text-wrap: wrap;
 }
 
 .place-event-heading {
-    font-family: "Aboreto", sans-serif;
-    font-size: 30px;
-    margin-bottom: 30px;
+  font-family: "Aboreto", sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .place-evnets-cared-flower-2 {
-    position: absolute;
-    width: 120px;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  width: 120px;
+  bottom: 0;
+  left: 0;
 }
 
 .palace-events-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 900px;
-    margin: 300px auto;
-    column-gap: 250px;
-    row-gap: 100px;
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 300px auto;
+  column-gap: 250px;
+  row-gap: 100px;
 }
 
 .see-the-route-container {
-    position: sticky;
-    top: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 20px;
-    justify-content: center;
+  position: sticky;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  justify-content: center;
 }
 
 .see-the-route-circles-container {
-    position: relative;
-    width: 120px;
-    height: 120px;
+  position: relative;
+  width: 120px;
+  height: 120px;
 }
 
 /* Common ring style */
 .outer-ring,
 .inner-ring {
-    position: absolute;
-    border-radius: 50%;
-    border: 6px solid rgb(243, 236, 186);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid rgb(243, 236, 186);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Inner thick ring (static or slight pulse optional) */
 .inner-ring {
-    width: 60px;
-    height: 60px;
-    border-width: 8px;
-    /* thicker */
+  width: 60px;
+  height: 60px;
+  border-width: 8px;
+  /* thicker */
 }
 
 /* Outer ring (animated) */
 .outer-ring {
-    width: 100px;
-    height: 100px;
-    border-color: rgb(243, 236, 186);
-    border-width: 4px;
-    animation: breathe 3s infinite ease-in-out;
+  width: 100px;
+  height: 100px;
+  border-color: rgb(243, 236, 186);
+  border-width: 4px;
+  animation: breathe 3s infinite ease-in-out;
 }
 
 /* Back-and-forth pulse (NOT one-direction ripple) */
 @keyframes breathe {
-    0% {
-        transform: translate(-50%, -50%) scale(0.9);
+  0% {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
 
-    }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
 
-    50% {
-        transform: translate(-50%, -50%) scale(1.1);
-
-    }
-
-    100% {
-        transform: translate(-50%, -50%) scale(0.9);
-
-    }
+  100% {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
 }
 
 .Blue-care-2-container {
-    display: flex;
-    justify-content: center;
-    z-index: 10;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
 }
 
 .Blue-care-2-image {
-    position: relative;
-    transform: scale(2.5);
-    top: 700px;
-    object-fit: contain;
-    z-index: 10;
+  position: relative;
+  transform: scale(2.5);
+  top: 400px;
+  object-fit: contain;
+  z-index: 10;
 }
 
 .lantern {
-    position: absolute;
-    pointer-events: none;
-    will-change: transform;
-    z-index: 2;
+  position: absolute;
+  pointer-events: none;
+  will-change: transform;
+  z-index: 2;
 }
 
 .things-to-know-heading {
-    text-align: center;
-    /* color: rgb(105, 107, 54); */
-    line-height: 120px;
-    font-family: "Aboreto", sans-serif;
-    font-size: 70px;
+  text-align: center;
+  /* color: rgb(105, 107, 54); */
+  line-height: 120px;
+  font-family: "Aboreto", sans-serif;
+  font-size: 70px;
 }
 
 .things-to-know-container {
-    padding-top: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: rgb(105, 107, 54);
+  padding-top: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(105, 107, 54);
 }
 
 .things-to-know-text {
-    font-family: "Yaldevi", "Yaldevi Placeholder", sans-serif;
-    font-size: 20px;
-    text-wrap: wrap;
-    max-width: 1200px;
-    text-align: center;
-    padding-block: 100px;
+  font-family: "Yaldevi", "Yaldevi Placeholder", sans-serif;
+  font-size: 20px;
+  text-wrap: wrap;
+  max-width: 1200px;
+  text-align: center;
+  padding-block: 100px;
 }
 
 .things-to-know-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 10px;
-    max-width: 200px;
-    text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  max-width: 200px;
+  text-align: center;
 }
 
 .things-to-know-card-image {
-    width: 80px;
+  width: 80px;
 }
 
 .things-to-know-card-heading {
-    font-family: "Aboreto", sans-serif;
-    font-size: 32px;
+  font-family: "Aboreto", sans-serif;
+  font-size: 32px;
 }
 
 .things-to-know-cards-container {
-    row-gap: 100px;
-    display: flex;
-    max-width: 800px;
-    flex-wrap: wrap;
-    column-gap: 150px;
-    justify-content: center;
+  row-gap: 100px;
+  display: flex;
+  max-width: 800px;
+  flex-wrap: wrap;
+  column-gap: 150px;
+  justify-content: center;
 }
 
 .Blue-care-image-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .Blue-car-image {
-    position: relative;
-    transform: scale(1.5);
-    top: 600px;
+  position: relative;
+  transform: scale(1.5);
+  top: 600px;
 }
 
 .night-palace-heading {
-    font-family: "Cormorant Upright", "Cormorant Upright Placeholder", serif;
-    font-size: 40px;
-
+  font-family: "Cormorant Upright", "Cormorant Upright Placeholder", serif;
+  font-size: 40px;
 }
 
 .night-palace-image-section {
-    padding-top: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: rgb(231, 147, 0);
+  padding-top: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(231, 147, 0);
 }
 
 .night-palace-text {
-    font-family: "Cormorant Upright", "Cormorant Upright Placeholder", ;
-    text-align: center;
-    font-size: 16px;
-
+  font-family: "Cormorant Upright", "Cormorant Upright Placeholder";
+  text-align: center;
+  font-size: 16px;
 }
 
 .countdown {
-    font-weight: 500;
-    font-size: 34px;
-    padding-block: 50px;
-    letter-spacing: 10px;
+  font-weight: 500;
+  font-size: 34px;
+  padding-block: 50px;
+  letter-spacing: 10px;
 }
-
+.map-link-wrapper {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
 @media screen and (max-width: 500px) {
+  .invitation-container {
+    margin-inline: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
 
-    .invitation-container {
-        margin-inline: 0;
-        width: 100%;
-        overflow-x: hidden;
-    }
+  .image-section {
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+  }
 
-    .image-section {
-        width: 100vw;
-        background-size: cover;
-        background-position: center;
-    }
+  /* ── Palace section ── */
+  .palace-image-section {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 200px;
+  }
 
-    /* ── Palace section ── */
-    .palace-image-section {
-        height: auto;
-        min-height: 100vh;
-        padding-bottom: 200px;
-    }
+  .palace-title {
+    margin-top: 100px;
+    line-height: 40px;
+  }
 
-    .palace-title {
-        margin-top: 100px;
-        line-height: 40px;
-    }
+  .palace-title-text {
+    font-size: 52px;
+    line-height: 50px;
+  }
 
-    .palace-title-text {
-        font-size: 52px;
-        line-height: 50px;
-    }
+  .palace-title-text-weds {
+    font-size: 26px;
+    line-height: 50px;
+  }
 
-    .palace-title-text-weds {
-        font-size: 26px;
-        line-height: 50px;
-    }
+  .palace-details-text {
+    font-size: 16px;
+    margin-top: 50px;
+    padding-inline: 20px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
 
-    .palace-details-text {
-        font-size: 16px;
-        margin-top: 50px;
-        padding-inline: 20px;
-        word-break: break-word;
-        overflow-wrap: break-word;
-        max-width: 100%;
-    }
+  .palace-details-text-large {
+    font-size: 64px;
+  }
 
-    .palace-details-text-large {
-        font-size: 64px;
-    }
+  .palace-details-text-medium {
+    font-size: 52px;
+  }
 
-    .palace-details-text-medium {
-        font-size: 52px;
-    }
+  /* ── Event cards ── */
+  .palace-events-container {
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0;
+    row-gap: 60px;
+    margin: 120px auto;
+    padding-inline: 20px;
+  }
 
-    /* ── Event cards ── */
-    .palace-events-container {
-        flex-direction: column;
-        align-items: center;
-        column-gap: 0;
-        row-gap: 60px;
-        margin: 120px auto;
-        padding-inline: 20px;
-    }
+  .palace-event-frame {
+    width: 260px;
+    height: 316px;
+  }
 
-    .palace-event-frame {
-        width: 260px;
-        height: 316px;
-    }
+  .place-event-heading {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
 
-    .place-event-heading {
-        font-size: 22px;
-        margin-bottom: 16px;
-    }
+  /* ── Route section ── */
+  .see-the-route-container {
+    top: 120px;
+  }
 
-    /* ── Route section ── */
-    .see-the-route-container {
-        top: 120px;
-    }
+  /* ── Blue cars ── */
+  .Blue-care-2-image {
+    transform: scale(0.7);
+    top: 150px;
+  }
 
-    /* ── Blue cars ── */
-    .Blue-care-2-image {
-        transform: scale(0.7);
-        top: 150px;
-    }
+  .Blue-car-image {
+    transform: scale(0.6);
+    top: 150px;
+  }
 
-    .Blue-car-image {
-        transform: scale(0.6);
-        top: 150px;
-    }
+  /* ── Things to know section ── */
+  .yellow-image-section {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 400px;
+  }
 
-    /* ── Things to know section ── */
-    .yellow-image-section {
-        height: auto;
-        min-height: 100vh;
-        padding-bottom: 400px;
-    }
+  .things-to-know-container {
+    padding-top: 200px;
+  }
 
-    .things-to-know-container {
-        padding-top: 200px;
-    }
+  .things-to-know-heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
 
-    .things-to-know-heading {
-        font-size: 40px;
-        line-height: 60px;
-    }
+  .things-to-know-text {
+    font-size: 16px;
+    padding-block: 50px;
+    padding-inline: 24px;
+  }
 
-    .things-to-know-text {
-        font-size: 16px;
-        padding-block: 50px;
-        padding-inline: 24px;
-    }
+  .things-to-know-cards-container {
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0;
+    row-gap: 60px;
+  }
 
-    .things-to-know-cards-container {
-        flex-direction: column;
-        align-items: center;
-        column-gap: 0;
-        row-gap: 60px;
-    }
+  .things-to-know-card {
+    max-width: 280px;
+  }
 
-    .things-to-know-card {
-        max-width: 280px;
-    }
+  .things-to-know-card-heading {
+    font-size: 24px;
+  }
 
-    .things-to-know-card-heading {
-        font-size: 24px;
-    }
+  /* ── Night palace / countdown section ── */
+  .night-palace-image-section {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    padding-inline: 24px;
+  }
 
-    /* ── Night palace / countdown section ── */
-    .night-palace-image-section {
-        height: auto;
-        min-height: 100vh;
-        padding-top: 250px;
-        padding-bottom: 100px;
-        padding-inline: 24px;
-    }
+  .night-palace-heading {
+    font-size: 28px;
+    text-align: center;
+  }
 
-    .night-palace-heading {
-        font-size: 28px;
-        text-align: center;
-    }
+  .countdown {
+    font-size: 22px;
+    letter-spacing: 6px;
+    padding-block: 30px;
+  }
 
-    .countdown {
-        font-size: 22px;
-        letter-spacing: 6px;
-        padding-block: 30px;
-    }
-
-    .night-palace-text {
-        font-size: 14px;
-        padding-inline: 10px;
-    }
+  .night-palace-text {
+    font-size: 14px;
+    padding-inline: 10px;
+  }
 }
