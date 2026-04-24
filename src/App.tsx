@@ -345,7 +345,7 @@ function App() {
             <div className="things-to-know-card-heading">HASHTAG</div>
             <div className="things-to-know-card-text">
               While posting photos on social media please use the hashtag -
-              #abkan
+              #PratyushaRamneeyam
             </div>
           </div>
           <div className="things-to-know-card">
@@ -360,7 +360,7 @@ function App() {
               at the venue
             </div>
           </div>
-          <div className="things-to-know-card">
+          {/* <div className="things-to-know-card">
             <img
               src={InstaIcon}
               alt="Insta icon"
@@ -371,7 +371,7 @@ function App() {
               We recommend the nearby hotel called Bhola Bhawan near the venue
               for the staff members
             </div>
-          </div>
+          </div> */}
           <div className="things-to-know-card">
             <img
               src={InstaIcon}
