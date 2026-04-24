@@ -189,11 +189,7 @@ function App() {
           }}
         >
           <img src={ganeshImage} alt="Ganesh Image" />
-          <section className="palace-details-text">
-            With the heavenly blessings of <br /> Smt. Lata Devi & Sm. Kamal
-            Kapoor
-          </section>
-          <div className="palace-details-text">——</div>
+
           <section className="palace-details-text">
             Mr. Veera Venkata Satyanarayana & Mrs. Padmavathi (Late)
           </section>
